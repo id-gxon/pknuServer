@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 
 # Quick-start development settings - unsuitable for production
@@ -25,7 +25,7 @@ SECRET_KEY = 'wj)2r-yor_km^0gt!v_^%geg8_a1ciyl1yx&)nr1oj_-k_&#=o'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [] # 서버 생성 후 고정 아이피 추가!
+# ALLOWED_HOSTS = [] # 서버 생성 후 고정 아이피 추가!
 
 
 # Application definition
